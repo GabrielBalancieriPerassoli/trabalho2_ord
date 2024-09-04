@@ -188,6 +188,9 @@ def buscaNaArvore(chave, rrn, arq):
                         
 def insereNaArvore(chave, offset, rrnAtual, arq):
 
+    if chave == 83:
+        print(123)
+
     if rrnAtual == NULO:
 
         chavePro = chave

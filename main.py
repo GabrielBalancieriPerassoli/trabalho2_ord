@@ -283,7 +283,9 @@ if __name__ == "__main__":
 
         nomeArq = sys.argv[2]
         execucao(nomeArq)
+        print()
         print('As operações do arquivo "arquivo_operacoes.txt" foram executadas com sucesso!')
+        print()
 
     elif sys.argv[1] == "-p":
  
